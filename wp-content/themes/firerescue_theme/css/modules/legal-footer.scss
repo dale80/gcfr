@@ -1,0 +1,46 @@
+.legal-footer {
+    background-color: rgb(43, 48, 48);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    height: 130px;
+    width: 100%;
+
+    &__logo-container {
+        flex-basis: 40%;
+        flex-grow: 0;
+    }
+
+    &__logo {
+        flex-basis: 20%;
+        flex-grow: 0;
+        height: 130px;
+        width: 130px;
+        bottom: 20px;
+        
+    }
+
+    &__copy-container {
+        flex-basis: 50%;
+        flex-grow: 0;
+    }
+
+    &__footer-line {
+        display: inline-block;
+        width: 98%;
+        margin-left: 20px;
+    }
+
+    &__footer-axe {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+    }
+
+    &__container {
+        display: inline-block;
+    }
+}

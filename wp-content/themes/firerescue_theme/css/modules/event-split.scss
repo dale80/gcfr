@@ -1,0 +1,29 @@
+.event-split {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+
+    &__spacer {
+        flex-basis: 10%;
+        flex-wrap: nowrap;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    &__content1 {
+        flex-basis: 40%;
+        flex-wrap: nowrap;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    &__content2 {
+        flex-basis: 40%;
+        flex-wrap: nowrap;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+}

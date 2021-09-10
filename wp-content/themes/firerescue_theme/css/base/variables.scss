@@ -1,0 +1,23 @@
+$beige: #FAF0CA;
+$mainYellow: #F4D35E;
+$mainBlue: #0D3B66;
+$lightOrange: #EE964B;
+$darkOrange: #F95748;
+
+@mixin atSmall {
+    @media (min-width: 530px) {
+      @content;
+    }
+  }
+  
+  @mixin atSmallMedium {
+    @media (min-width: 767px) {
+      @content;
+    }
+  }
+  
+  @mixin atMedium {
+    @media (min-width: 960px) {
+      @content;
+    }
+  }
